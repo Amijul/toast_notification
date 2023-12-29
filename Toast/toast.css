@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: linear-gradient(90deg, rgb(238, 67, 67), rgb(9, 128, 128));
+}
+#toast{
+    width: 900px;
+    margin: 120px auto 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 13px 12px 23px black;
+    border-radius: 19px;
+    background: linear-gradient(45deg, violet, pink);
+    display: flex;
+    justify-content: space-between;
+}
+
+#toast button{
+    width: 170px;
+    height: 49px;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 30px 10px;
+    box-sizing: border-box;
+    border-radius: 17px;
+    box-shadow: 8px 6px 12px black;
+    color: white;
+    
+}
+
+#toast:nth-child(1){
+    background: linear-gradient(180deg, red, blue);
+}
+
+#toast button:active{
+    scale: .9;
+    background-color: brown;
+    color: blue;
+    transition: .5s;
+}
+
+.popup{
+    width: 300px;
+    height: 60px;
+    background-color: aliceblue;
+    margin: 30px auto 0;
+    display: none;
+}
+
+.popup #span1{
+    font-size: 20;
+    font-weight: 600;
+    float: right;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.popup #span2{
+    font-size: 17px;
+    font-weight: 350px;
+    display: block;
+    padding: 0 0  0 20px;
+}
+
+#anime{   
+    margin-top: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: green;
+    animation: rigth-to-left 6s  ;
+}
+
+@keyframes rigth-to-left{
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+        
+        
+    }
+}
+

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width:700px;
+    height: auto;
+    color: #222;
+    margin: 20px auto 10px;
+    padding: 30px;
+    justify-content: center;
+   background-color: white;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+.input{
+    text-align: center;
+    width: 70%;
+    height: auto;
+    margin: 10px auto 30px;
+}
+
+.input input{
+    width: 70%;
+    height:37px;
+    outline: 0.9px;
+    border: 0;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.622);
+
+}
+
+.input button{
+    width: 60px;
+    height: 37px;
+    background-color: #222;
+    border: 0;
+    outline: 0;
+    color: white;
+    border-radius: 9px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.5s;
+    
+}
+
+.input button:hover{
+    box-sizing: 2px 2px 1px white;
+    scale: 1.1;
+    text-transform: capitalize;
+}
+
+.parentdiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#result1, #result2{
+    
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    display:inline-block ;
+    border: 1px solid white;
+    box-shadow: 2px 1px 3px black;
+    border-radius: 20px;
+    background-color: rgba(51, 148, 217);
+
+
+}
+
+#result1 h1, #result2 h1{
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    margin: 15px;
+    padding: 0;
+    color: white;
+    
+}
+
+.image{
+    width: 100%;
+    background-color: rgba(51, 148, 217);
+    border-radius: 20px;
+    box-shadow: 4px 6px 3px black;
+   
+}
+
+.image img{
+    margin: 40px auto 10px;
+    width:50%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+

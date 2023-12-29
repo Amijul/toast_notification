@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Toast Notification</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="toast.css">
+</head>
+  <body>
+
+    <div class="popup">
+      <span id="span1" onclick="Remove()">x</span>
+      <span id="span2">Error something</span>
+      <div id="anime"></div>
+    </div>
+      <div id="toast">
+        <button id="btn1" onclick="displayDanger()" class="btn btn-outline-danger">Click Error</button>
+        <button id="btn2" onclick="displaySuccess()" class="btn btn-outline-success">Click Success</button>
+        <button id="btn3" onclick="displayWarning()" class="btn btn-outline-warning">Click Warning</button>
+      </div>
+
+      
+
+        <script src="toast.js"></script>
+     
+  </body>
+</html>

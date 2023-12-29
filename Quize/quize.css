@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+    
+}
+
+body{
+    background-color: rgba(3, 3, 40, 0.929);
+}
+
+#main{
+    background-color: azure;
+    width: 90%;
+    max-width: 400px;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+
+#main h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 400;
+    margin: 2px;
+    border-bottom: 1px solid rgba(3, 3, 40, 0.929);
+    border-top: 1px solid rgba(3, 3, 40, 0.929);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#quize h2{
+    font-size: 20px;
+    color: #001e4d;
+    font-weight: 500;
+    padding: 20px;
+
+}
+
+.btn{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color:#222;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ;
+}
+
+.btn:hover{
+    background-color:#001e4d;
+    color: white;
+}
+
+.next-btn{
+   width: 120px;
+   height: auto;
+   background-color: #001e4d;
+   color: white;
+   border-radius: 5px;
+   font-weight: 390;
+   margin: 20px auto 0;
+   padding: 10px;
+   cursor: pointer;
+   display: none;
+}
